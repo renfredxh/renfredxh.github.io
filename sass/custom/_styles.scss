@@ -20,13 +20,13 @@ to learn about modular scales.
 
 -------------------------------------------------------------------------
 */
-
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 
 // ------------------------------
 // variables
 // ------------------------------
 
-$accent-color: #65a672;
+$accent-color: #cd4d4d;
 $accent-hover-color: darken($accent-color, 8%);
 
 $text-color: #333;
@@ -35,8 +35,8 @@ $secondary-text-color: #aaa;
 $line-color: #e6e6e6;
 $hide-line-numbers: true;
 
-$border-radius-size: 4px;
-$border-style: 2px solid $secondary-text-color;
+$border-radius-size: 0;
+$border-style: 1px solid $secondary-text-color;
 
 
 // ------------------------------
@@ -94,7 +94,7 @@ $border-style: 2px solid $secondary-text-color;
 }
 
 .border-style {
-  border-top: 2px solid $secondary-text-color;
+  border-top: 1px solid $secondary-text-color;
 }
 
 .code-keywords {
@@ -121,11 +121,12 @@ $border-style: 2px solid $secondary-text-color;
 }
 
 .sans-serif-font-bold {
-  font-family: "Fjalla One", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans", "Fjalla One", "Helvetica Neue", Arial, sans-serif;
 }
 
 .sans-serif-font {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
 }
 
 .default-font {
@@ -148,7 +149,6 @@ body {
   -webkit-text-size-adjust: none; /* prevent mobile safari from resizing text */
   background-color: #fff;
   color: $text-color;
-  text-align: center;
   width: 54%;
   margin: 0 auto;
 }
@@ -330,6 +330,10 @@ nav {
       @extend .sans-serif-font;
       display: inline;
       font-weight: bold;
+
+      a {
+        font-weight: 400;
+      }
     }
     
     li + li {
@@ -394,11 +398,13 @@ body {
     margin-top: -84.715px;
     margin-top: -4.236rem;
     border-top: $border-style;
+    text-align: center;
     
     span, a {
       border-radius: $border-radius-size;
+      font-size: 95%;
       padding: 4.722px 12.361px;
-      padding: 0.236rem 0.618rem;
+      padding: 0.636rem 1.418rem;
     }
     
     a {
@@ -416,6 +422,7 @@ body {
   > footer {
     @extend .margin-bottom-larger;
     clear: both;
+    text-align: center;
     
     p {
       @extend .font-size-smallest;
@@ -423,6 +430,7 @@ body {
       color: $secondary-text-color;
       line-height: 20px;
       line-height: 1rem;
+      text-align: center;
       
       a {
         text-decoration: underline;
@@ -455,6 +463,7 @@ body {
       line-height: 38.319px;
       line-height: 1.916rem;
       margin: 0;
+      font-weight: 300;
     }
   }
   
@@ -514,6 +523,7 @@ article {
     h1 {
       font-size: 45.959px;
       font-size: 2.298rem; /* 1.916 + 0.382 */
+      font-weight: 300;
       margin-bottom: 3.456px;
       margin-bottom: 0.173rem;
       line-height: 50.58px;
@@ -529,7 +539,6 @@ article {
       @extend .sans-serif-font;
       color: $secondary-text-color;
       line-height: 1.184rem;
-      text-align: center;
       
       time {
         @extend .margin-bottom-large;
@@ -605,10 +614,14 @@ article {
       text-decoration: underline;
     }
     
+    p {
+      text-align: center;
+    } 
     > p.meta {
       overflow: auto;
       padding-bottom: 38.319px;
       padding-bottom: 1.916rem;
+      text-align: center;
       
       &:first-child {
         @extend .font-size-smallest;
@@ -641,6 +654,10 @@ article {
         float: right;
         text-align: right;
       }
+    }
+    
+    .sharing {
+      text-align: center;
     }
   }
   
@@ -686,7 +703,7 @@ article {
   body {
     > header {
       margin: 52.358px 0;
-      margin: 2.618rem 0;
+      margin: 0.618rem 0;
     }
   }
   
@@ -694,10 +711,10 @@ article {
   nav {
     border-top: none;
     margin-bottom: 52.358px;
-    margin-bottom: 2.618rem;
+    margin-bottom: 0.618rem;
     
     ul {
-      border-top: 2px solid #808080;
+      border-top: 1px solid #808080;
       border-bottom: 1px solid $line-color;
       padding: 20px 0;
       padding: 1rem 0;
