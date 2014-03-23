@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://renfredxh.github.io/atom.xml" rel="self"/>
   <link href="http://renfredxh.github.io/"/>
-  <updated>2014-03-06T18:02:57-05:00</updated>
+  <updated>2014-03-22T22:57:23-04:00</updated>
   <id>http://renfredxh.github.io/</id>
   <author>
     <name><![CDATA[Renfred Harper]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Deploying Piwik on Ubuntu 12.04]]></title>
+    <link href="http://renfredxh.github.io/blog/2014/03/22/deploying-piwik-on-ubuntu-12-dot-04/"/>
+    <updated>2014-03-22T22:50:41-04:00</updated>
+    <id>http://renfredxh.github.io/blog/2014/03/22/deploying-piwik-on-ubuntu-12-dot-04</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
