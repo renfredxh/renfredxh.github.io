@@ -8,6 +8,8 @@ categories:
 
 In addition to maintaining [my own personal open source projects](https://github.com/renfredxh), I've made a few contributions to several other repositories. Here is where I keep track of them.
 
+<!-- more -->
+
 ### 2014-10 **Lychee** - _Add Dockerfile_ - [#236](https://github.com/electerious/Lychee/pull/236/commits), [#252](https://github.com/electerious/Lychee/pull/252)
 Lychee is a self-hosted photo management tool. I added a Dockerfile which containerized the application so users could easily deploy the application using Docker.
 
