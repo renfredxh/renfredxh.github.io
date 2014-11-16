@@ -20,7 +20,10 @@ to learn about modular scales.
 
 -------------------------------------------------------------------------
 */
+// Open Sans
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+// Lora Serif
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700);
 
 // ------------------------------
 // variables
@@ -130,7 +133,7 @@ $border-style: 1px solid $secondary-text-color;
 }
 
 .default-font {
-  font-family: "PT Serif", Georgia, Times, "Times New Roman", serif;
+  font-family: "Lora", "PT Serif", Georgia, Times, "Times New Roman", serif;
 }
 
 
