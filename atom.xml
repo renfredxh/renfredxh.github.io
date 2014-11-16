@@ -4,7 +4,7 @@
   <title><![CDATA[&lt;&#9775;/&gt;]]></title>
   <link href="http://blog.renf.red/atom.xml" rel="self"/>
   <link href="http://blog.renf.red/"/>
-  <updated>2014-11-16T05:53:14+00:00</updated>
+  <updated>2014-11-16T06:25:06+00:00</updated>
   <id>http://blog.renf.red/</id>
   <author>
     <name><![CDATA[Renfred Harper]]></name>
@@ -19,6 +19,9 @@
     <updated>2014-11-16T03:13:28+00:00</updated>
     <id>http://blog.renf.red/blog/2014/11/16/open-source-changelog</id>
     <content type="html"><![CDATA[<p>In addition to maintaining <a href="https://github.com/renfredxh">my own personal open source projects</a>, I&rsquo;ve made a few contributions to several other repositories. Here is where I keep track of them.</p>
+
+<!-- more -->
+
 
 <h3>2014-10 <strong>Lychee</strong> &ndash; <em>Add Dockerfile</em> &ndash; <a href="https://github.com/electerious/Lychee/pull/236/commits">#236</a>, <a href="https://github.com/electerious/Lychee/pull/252">#252</a></h3>
 
