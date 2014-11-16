@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Name Error]]></title>
-  <link href="http://renfredxh.github.io/atom.xml" rel="self"/>
-  <link href="http://renfredxh.github.io/"/>
-  <updated>2014-03-22T23:25:25-04:00</updated>
-  <id>http://renfredxh.github.io/</id>
+  <link href="http://blog.renf.red/atom.xml" rel="self"/>
+  <link href="http://blog.renf.red/"/>
+  <updated>2014-11-16T01:40:29+00:00</updated>
+  <id>http://blog.renf.red/</id>
   <author>
     <name><![CDATA[Renfred Harper]]></name>
     
