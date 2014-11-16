@@ -56,7 +56,7 @@ html .gist .gist-file .gist-syntax .highlight pre {
 
   .c { color: $base01 !important; font-style: italic !important; } /* Comment */
   .cm { color: $base01 !important; font-style: italic !important; } /* Comment.Multiline */
-  .cp { color: $base01 !important; font-style: italic !important; } /* Comment.Preproc */
+  .cp { color: $solar-magenta !important; } /* Comment.Preproc */
   .c1 { color: $base01 !important; font-style: italic !important; } /* Comment.Single */
   .cs { color: $base01 !important; font-weight: bold !important; font-style: italic !important; } /* Comment.Special */
   .err { color: $solar-red !important; background: none !important; } /* Error */

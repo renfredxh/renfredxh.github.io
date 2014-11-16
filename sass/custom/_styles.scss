@@ -251,6 +251,8 @@ figure.code, pre {
 }
 
 figure.code {
+  margin-bottom: 0;
+
   figcaption {
     margin: 4px 0 10px;
     line-height: 23.683px;
@@ -289,7 +291,7 @@ pre {
 }
 
 code {
-  line-height: 109%;
+  line-height: 121%;
 }
 
 // ------------------------------
