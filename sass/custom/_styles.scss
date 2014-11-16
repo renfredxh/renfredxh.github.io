@@ -382,11 +382,6 @@ body {
       color: $text-color;
     }
 
-    h3 {
-      color: $secondary-text-color;
-      padding-top: 6px;
-      font-weight: 200;
-    }
   }
   
   // ----- blog content -----
@@ -400,6 +395,10 @@ body {
     display: none;
   }
   
+  article h3 {
+    margin-top: 2.618rem;
+    margin-bottom: 0.452rem;
+  }
   // ----- pagination -----
   
   .pagination {
@@ -477,6 +476,11 @@ body {
       line-height: 1.916rem;
       margin: 0;
       font-weight: 300;
+    }
+
+    h3 {
+      margin-top: 2.618rem;
+      margin-bottom: 0.452rem;
     }
   }
   
