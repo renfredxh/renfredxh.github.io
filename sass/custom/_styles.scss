@@ -395,10 +395,7 @@ body {
     display: none;
   }
   
-  article h3 {
-    margin-top: 2.618rem;
-    margin-bottom: 0.452rem;
-  }
+
   // ----- pagination -----
   
   .pagination {
@@ -585,6 +582,11 @@ article {
     margin-top: 2.618rem;
     margin-bottom: 9.046px;
     margin-bottom: 0.452rem;
+  }  
+  
+  h3 {
+    margin-top: 2.618rem;
+    margin-bottom: 0.452rem;
   }
   
   ul, ol {
@@ -632,7 +634,7 @@ article {
     }
     
     p {
-      text-align: center;
+      text-align: left;
     } 
     > p.meta {
       overflow: auto;
@@ -681,12 +683,11 @@ article {
   
   // 'read on' button
   > footer > a {
-    @extend .button;
     padding: 0.452rem 0;
     padding: 9.046px 0;
-    display: block;
     width: 30%;
     margin: 0 auto;
+    background-color: #fff;
   }
 }
 
