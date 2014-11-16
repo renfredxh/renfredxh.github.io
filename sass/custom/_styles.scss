@@ -239,7 +239,6 @@ sub {
   bottom: -0.4rem;
 }
 
-
 // ------------------------------
 // code
 // ------------------------------
@@ -377,7 +376,12 @@ body {
     h2 {
       @extend .font-size-large;
       @extend .sans-serif-font;
+      color: $text-color;
+    }
+
+    h3 {
       color: $secondary-text-color;
+      padding-top: 6px;
     }
   }
   
